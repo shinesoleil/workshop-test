@@ -13,7 +13,13 @@ Actual Time: 1 minute
 Learning: none
 
 Task 3:
-Add service layer in controller to return the empty list  
+Add service layer in controller to return the empty list 
+Estimation: 5 minutes  
+Actual Time: 4 minutes  
+Learning: none
+
+Task 4:
+should return list with one product when getting products - Controller  
 Estimation: 5 minutes  
 Actual Time: 4 minutes  
 Learning: none
