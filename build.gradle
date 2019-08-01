@@ -52,5 +52,6 @@ task integrationTest(type: Test) {
 }
 
 
-integrationTest.dependsOn test
 test.finalizedBy jacocoTestReport
+integrationTest.dependsOn test
+build.dependsOn integrationTest

@@ -47,7 +47,7 @@ public class ProductIntegrationTest {
         .andExpect(status().isOk())
         .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
         .andExpect(jsonPath("$").isArray())
-        .andExpect(jsonPath("$[0].id").value("1s"))
+        .andExpect(jsonPath("$[0].id").value("1"))
         .andExpect(jsonPath("$[0].name").value("ice peak"));
   }
 }
