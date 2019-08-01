@@ -23,3 +23,9 @@ should return list with one product when getting products - Controller
 Estimation: 5 minutes  
 Actual Time: 4 minutes  
 Learning: none
+
+Task 5:
+should return null when getting products - Service  
+Estimation: 4 minutes  
+Actual Time: 3 minutes  
+Learning: none
