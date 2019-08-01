@@ -41,3 +41,9 @@ should return list with one product when getting all
 Estimation: 2 minutes  
 Actual Time: 2 minutes  
 Learning: none
+
+Task 8:
+Introduce JPA and connect JPA to database  
+Estimation: 2 minutes  
+Actual Time: 1 minutes  
+Learning: none
