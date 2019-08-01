@@ -37,17 +37,15 @@ public class ProductIntegrationTest {
   public void should_get_list_with_one_product_when_get_products_request()
       throws Exception {
     Product product = new Product();
-    product.setId("1");
     product.setName("ice peak");
 
     productRepository.save(product);
 
-    mvc.perform(get("/products")
-        .contentType(MediaType.APPLICATION_JSON))
+    mvc.perform(get("/products").contentType(MediaType.APPLICATION_JSON))
         .andExpect(status().isOk())
         .andExpect(content().contentTypeCompatibleWith(MediaType.APPLICATION_JSON))
         .andExpect(jsonPath("$").isArray())
-        .andExpect(jsonPath("$[0].id").value("1"))
+        .andExpect(jsonPath("$[0].id").isString())
         .andExpect(jsonPath("$[0].name").value("ice peak"));
   }
 }
