@@ -29,3 +29,9 @@ should return null when getting products - Service
 Estimation: 4 minutes  
 Actual Time: 3 minutes  
 Learning: none
+
+Task 6:
+Add repository layer in service to return null  
+Estimation: 3 minutes  
+Actual Time:  minutes  
+Learning: none
